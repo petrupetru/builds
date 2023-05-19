@@ -2,7 +2,7 @@
 
 To run this project you will need a python enviroment  
 For python 3.7 use branch "2.0-verified" of ml_agents or "release_20" for newer version  
-Change number from build4 to use a different build version  
+Change number from build5 to use a different build version  
 ```
 # Cloning the ml-agents repo.(branch depending on python version)
 !git clone --branch release_20 https://github.com/Unity-Technologies/ml-agents.git  
@@ -26,12 +26,12 @@ shutil.rmtree('builds')
 
 
 # Set the permissions
-!chmod -R 755 builds/build4/build4.x86_64
-!chmod -R 755 builds/build4/UnityPlayer.so
-!ls -l builds/build4
+!chmod -R 755 builds/build5/build5.x86_64
+!chmod -R 755 builds/build5/UnityPlayer.so
+!ls -l builds/build5
 
 # Set the Environment name
-env_name = "builds/build4/build4.x86_64"
+env_name = "builds/build5/build5.x86_64"
 
 
 

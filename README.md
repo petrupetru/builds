@@ -1,7 +1,11 @@
 # Builds
 
 To run this project you will need a python enviroment  
-For python 3.7 use branch "2.0-verified" of ml_agents or "release_20" for newer version  
+For python 3.7 use branch "2.0-verified" of ml_agents.  For newer version of python use branch "release_20"   
+
+Put the config.yaml file in the current working directory
+
+
 Change number from build5 to use a different build version  
 ```
 # Cloning the ml-agents repo.(branch depending on python version)
